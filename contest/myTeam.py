@@ -22,71 +22,112 @@ import game
 #################
 
 def createTeam(firstIndex, secondIndex, isRed,
-               first = 'DummyAgent', second = 'DummyAgent'):
-  """
-  This function should return a list of two agents that will form the
-  team, initialized using firstIndex and secondIndex as their agent
-  index numbers.  isRed is True if the red team is being created, and
-  will be False if the blue team is being created.
+                first = 'DummyAgent', second = 'DummyAgent'):
+    """
+    This function should return a list of two agents that will form the
+    team, initialized using firstIndex and secondIndex as their agent
+    index numbers.  isRed is True if the red team is being created, and
+    will be False if the blue team is being created.
 
-  As a potentially helpful development aid, this function can take
-  additional string-valued keyword arguments ("first" and "second" are
-  such arguments in the case of this function), which will come from
-  the --redOpts and --blueOpts command-line arguments to capture.py.
-  For the nightly contest, however, your team will be created without
-  any extra arguments, so you should make sure that the default
-  behavior is what you want for the nightly contest.
-  """
+    As a potentially helpful development aid, this function can take
+    additional string-valued keyword arguments ("first" and "second" are
+    such arguments in the case of this function), which will come from
+    the --redOpts and --blueOpts command-line arguments to capture.py.
+    For the nightly contest, however, your team will be created without
+    any extra arguments, so you should make sure that the default
+    behavior is what you want for the nightly contest.
+    """
 
-  # The following line is an example only; feel free to change it.
-  return [eval(first)(firstIndex), eval(second)(secondIndex)]
+    # The following line is an example only; feel free to change it.
+    return [eval(first)(firstIndex), eval(second)(secondIndex)]
 
 ##########
 # Agents #
 ##########
 
-class DummyAgent(CaptureAgent):
-  """
-  A Dummy agent to serve as an example of the necessary agent structure.
-  You should look at baselineTeam.py for more details about how to
-  create an agent as this is the bare minimum.
-  """
+class BaseQAgent(CaptureAgent):
+    # Basic QLearning agent
 
-  def registerInitialState(self, gameState):
-    """
-    This method handles the initial setup of the
-    agent to populate useful fields (such as what team
-    we're on).
+    def __init__(self, index):
+        CaptureAgent.__init__(self, index)
+        self.weights = util.Counter()
+        self.training_iters = 0
+        self.episodes = 0
+        self.epsilon = 0.05
+        self.discount = 0.8
+        self.alpha = 0.2
+        self.food_prio = 2
+    
+    def registerInitialState(self, gameState):
+        self.start = gameState.getAgentPosition(self.index)
+        self.last_action = None
+        CaptureAgent.registerInitialState(self, gameState)
 
-    A distanceCalculator instance caches the maze distances
-    between each pair of positions, so your agents can use:
-    self.distancer.getDistance(p1, p2)
+    def getWeights(self):
+        return self.weights
 
-    IMPORTANT: This method may run for at most 15 seconds.
-    """
+    def getQValue(self, state, action):
+        pass
 
-    '''
-    Make sure you do not delete the following line. If you would like to
-    use Manhattan distances instead of maze distances in order to save
-    on initialization time, please take a look at
-    CaptureAgent.registerInitialState in captureAgents.py.
-    '''
-    CaptureAgent.registerInitialState(self, gameState)
+    def getReward(self, gameState):
+        pass
 
-    '''
-    Your initialization code goes here, if you need any.
-    '''
+    def getFeats(self, gameState, action):
+        succ = self.getSuccessor(gameState, action)
+        feats = util.Counter()
+        feats['score'] = self.getScore(succ)
+        if not self.red:
+            feats['score'] *= -1
+        feats['choices'] = len(succ.getLegalActions(self.index))
+        return feats
 
+    def getSuccessor(self, gameState, action):
+        succ = gameState.generateSuccessor(self.index, action)
+        pos = succ.getAgentState(self.index).getPosition()
+        if pos != util.nearestPoint(pos):
+            return succ.generateSuccessor(self.index, action)
+        else:
+            return succ
 
-  def chooseAction(self, gameState):
-    """
-    Picks among actions randomly.
-    """
-    actions = gameState.getLegalActions(self.index)
+    def chooseAction(self, gameState):
+        self.observed.append(gameState)
+        
+        actions = gameState.getLegalActions(self.index)
+        action = None
+        if len(actions) > 0:
+            if util.flipCoin(self.epsilon) and self.training():
+                action = random.choice(actions)
+            else:
+                action = self.computeActionFromQValues(gameState)
+        
+        self.last_action = action
+        return action
 
-    '''
-    You should change this in your own agent.
-    '''
+    def computeActionFromQValues(self, gameState):
+        pass
 
-    return random.choice(actions)
+    def computeValueFromQValues(self, gameState):
+        pass
 
+    def observationFunction(self, gameState):
+        pass
+
+    def update(self, state, action, nextState, reward):
+        difference = (reward + self.discount * self.computeValueFromQValues(nextState))
+        difference -= self.getQValue(state, action)
+        new_weights = self.weights.copy()
+        features = self.getFeats(state, action)
+        for feature in features:
+            new_weight = new_weights[feature] + self.alpha * difference * features[feature]
+        new_weights[feature] = new_weight
+        self.weights = new_weights.copy()
+
+    def finish(self, state):
+        CaptureAgent.final(self, state)
+        if self.isTraining():
+            print "END WEIGHTS"
+            print self.weights
+        self.episodes += 1
+        if self.episodes == self.num_training:
+            print "FINISHED TRAINING"
+    
