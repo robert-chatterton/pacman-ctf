@@ -1,3 +1,7 @@
+# THE PACBOYS
+# Robert Chatterton and Zoheb Aziz
+
+
 # myTeam.py
 # ---------
 # Licensing Information:  You are free to use or extend these projects for
@@ -106,14 +110,6 @@ class BaseAgent(CaptureAgent):
     def registerInitialState(self, gameState):
         self.start = gameState.getAgentPosition(self.index)
         CaptureAgent.registerInitialState(self, gameState)
-
-        # board size
-        self.width, self.height = gameState.getWalls().asList()[-1]
-        self.mid_x = self.width / 2
-        if self.red:
-            self.less_than_mid = True
-        else:
-            self.less_than_mid = False
 
     def chooseAction(self, gameState):
         """
@@ -267,7 +263,10 @@ class PacBoyKilla(BaseAgent):
         if self.training:
             self.weights = PS.get_params(self.gen, defensive=False)
         else:
-            self.weights = PS.read_params('parameters_a.json')
+            if self.red:
+                self.weights = PS.read_params('parameters_ar.json')
+            else:
+                self.weights = PS.read_params('parameters_ab.json')
     
     def chooseAction(self, gameState):
         """
@@ -312,11 +311,11 @@ class PacBoyKilla(BaseAgent):
 
         # Computes distance to invaders we can see
         enemies = [successor.getAgentState(i) for i in self.getOpponents(successor)]
-        invaders = [a for a in enemies if not a.isPacman and a.getPosition() != None]
-        features['numEnemies'] = len(invaders)
+        invaders = [a for a in enemies if a.isPacman and a.getPosition() != None]
+        features['numInvaders'] = len(invaders)
         if len(invaders) > 0:
             dists = [self.getMazeDistance(myPos, a.getPosition()) for a in invaders]
-            features['enemyDistance'] = min(dists)
+            features['invaderDistance'] = min(dists)
 
         if action == Directions.STOP: 
             features['stop'] = 1
@@ -401,7 +400,7 @@ class PacBoyKilla(BaseAgent):
         
         # after final generation, pick the best overall weights based on score and compete using those values
         if self.iters == 0:
-            PS.set_params(self.weights, defensive=False)
+            PS.set_params(self.weights, self.red, defensive=False)
             logging.info('WEIGHTS SET:\n%s' % (self.parent[1]))
             self.training = False
 
@@ -412,7 +411,10 @@ class PacBoyHallMonitor(BaseAgent):
         if self.training:
             self.weights = PS.get_params(self.gen, defensive=True)
         else:
-            self.weights = PS.read_params('parameters_d.json')
+            if self.red:
+                self.weights = PS.read_params('parameters_dr.json')
+            else:
+                self.weights = PS.read_params('parameters_db.json')
 
     # override final
     def final(self, gameState):       
@@ -466,6 +468,6 @@ class PacBoyHallMonitor(BaseAgent):
         
         # after final generation, pick the best overall weights based on score and compete using those values
         if self.iters == 0:
-            PS.set_params(self.weights, defensive=True)
+            PS.set_params(self.weights, self.red, defensive=True)
             logging.info('WEIGHTS SET:\n%s' % (self.parent[1]))
             self.training = False

@@ -22,9 +22,9 @@ class ParameterSetter:
             }
         else:
             weight_ranges = {
-                'numEnemies': [100, 400], 
+                'numInvaders': [100, 400], 
                 'onDefense': [-200, -50], 
-                'enemyDistance': [-300, -10], 
+                'invaderDistance': [-300, -10], 
                 'stop': [-100, -10], 
                 'reverse': [-1000, -10],
                 'distanceToFood': [-700, -100],
@@ -34,7 +34,7 @@ class ParameterSetter:
                 'ourFoodLeft': [-1, 1],
                 'distanceToStart': [-10000, -3000],
                 'distanceToAlly': [50, 300],
-                'returnReward': [500, 1500]
+                'returnReward': [2000, 4000]
             }
 
         new_weights = {}
@@ -47,11 +47,15 @@ class ParameterSetter:
 
         return new_weights
 
-    def set_params(self, weights, defensive=True):
-        if defensive:
-            parameter_file = 'parameters_d.json'
+    def set_params(self, weights, red, defensive=True):
+        if defensive and red:
+            parameter_file = 'parameters_dr.json'
+        elif defensive and not red:
+            parameter_file = 'parameters_db.json'
+        elif not defensive and red:
+            parameter_file = 'parameters_ar.json'
         else:
-            parameter_file = 'parameters_a.json'
+            parameter_file = 'parameters_ab.json'
         with open(parameter_file, 'w') as parameters:
             parameters.write(json.dumps(weights))
 
