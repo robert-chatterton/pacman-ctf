@@ -89,7 +89,6 @@ class BaseAgent(CaptureAgent):
         self.mutation_rate = 0.05
         self.gen = 0
         self.weights = {}
-        self.genWeights()
         self.current_generation = []
         self.parent = None
         self.turns = 0
@@ -104,6 +103,7 @@ class BaseAgent(CaptureAgent):
     def registerInitialState(self, gameState):
         self.start = gameState.getAgentPosition(self.index)
         CaptureAgent.registerInitialState(self, gameState)
+        self.genWeights()
 
     def chooseAction(self, gameState):
         """
@@ -257,10 +257,11 @@ class PacBoyKilla(BaseAgent):
         if self.training:
             self.weights = PS.get_params(self.gen, defensive=False)
         else:
+            base_path = 'pacboys/'
             if self.red:
-                self.weights = PS.read_params('parameters_ar.json')
+                self.weights = PS.read_params(base_path + 'parameters_ar.json')
             else:
-                self.weights = PS.read_params('parameters_ab.json')
+                self.weights = PS.read_params(base_path + 'parameters_ab.json')
     
     def chooseAction(self, gameState):
         self.turns += 1
@@ -400,10 +401,11 @@ class PacBoyHallMonitor(BaseAgent):
         if self.training:
             self.weights = PS.get_params(self.gen, defensive=True)
         else:
+            base_path = 'pacboys/'
             if self.red:
-                self.weights = PS.read_params('parameters_dr.json')
+                self.weights = PS.read_params(base_path + 'parameters_dr.json')
             else:
-                self.weights = PS.read_params('parameters_db.json')
+                self.weights = PS.read_params(base_path + 'parameters_db.json')
 
     # override final
     def final(self, gameState):       
