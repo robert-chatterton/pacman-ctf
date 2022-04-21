@@ -1,28 +1,19 @@
-# THE PACBOYS
-# Robert Chatterton and Zoheb Aziz
+# pacboysTeam.py
+# run with `python capture.py -r pacboysTeam -b baselineTeam`
 
+# CS4100 Final Project
+# THE PACBOYS -- Robert Chatterton and Zoheb Aziz
 
-# myTeam.py
-# ---------
-# Licensing Information:  You are free to use or extend these projects for
-# educational purposes provided that (1) you do not distribute or publish
-# solutions, (2) you retain this notice, and (3) you provide clear
-# attribution to UC Berkeley, including a link to http://ai.berkeley.edu.
-# 
-# Attribution Information: The Pacman AI projects were developed at UC Berkeley.
-# The core projects and autograders were primarily created by John DeNero
-# (denero@cs.berkeley.edu) and Dan Klein (klein@cs.berkeley.edu).
-# Student side autograding was added by Brad Miller, Nick Hay, and
-# Pieter Abbeel (pabbeel@cs.berkeley.edu).
-
+# Trained through the genetic algorithm. For the in class
+# competition, we will not be training and will instead load
+# saved weight parameters we achieved through training, in the 
+# JSON files provided in this zip.
 
 from captureAgents import CaptureAgent
 import random, time, util
 from game import Directions
-import game
 from util import nearestPoint
 import logging
-import uuid
 from create_weights import ParameterSetter
 
 #################
