@@ -14,7 +14,7 @@ import random, time, util
 from game import Directions
 from util import nearestPoint
 import logging
-from create_weights import ParameterSetter
+from pacboys.create_weights import ParameterSetter
 
 #################
 # Team creation #
