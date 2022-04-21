@@ -30,7 +30,7 @@ from create_weights import ParameterSetter
 #################
 
 arguments = {}
-GENERATION_LENGTH = 10
+GENERATION_LENGTH = 20
 NUM_GENERATIONS = 5
 
 # init first generation with random weights
@@ -63,6 +63,9 @@ def createTeam(firstIndex, secondIndex, isRed,
         TRAINING = True
     else:
         TRAINING = False
+
+    # for running in class, we never want it training
+    TRAINING = False
 
     if TRAINING:
         return [PacBoyHallMonitor(firstIndex, arguments['numTraining'], train=TRAINING), PacBoyKilla(secondIndex, arguments['numTraining'], train=TRAINING)]
@@ -269,9 +272,6 @@ class PacBoyKilla(BaseAgent):
                 self.weights = PS.read_params('parameters_ab.json')
     
     def chooseAction(self, gameState):
-        """
-        Picks among the actions with the highest Q(s,a).
-        """
         self.turns += 1
         actions = gameState.getLegalActions(self.index)
 
@@ -395,8 +395,6 @@ class PacBoyKilla(BaseAgent):
                 self.weights = PS.get_params(self.gen, defensive=False)
         
         self.iters -= 1
-
-        # LATER: possibly experiment with switching the mutation factor per generation
         
         # after final generation, pick the best overall weights based on score and compete using those values
         if self.iters == 0:
