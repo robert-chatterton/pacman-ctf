@@ -1,3 +1,6 @@
+# Team we trained against that used two offensive QLearning Agents. 
+# Full repo can be found here: https://github.com/mrin17/PacmanCTF/blob/master/Code/leeroyTeam.py
+
 from captureAgents import CaptureAgent
 from baselineTeam import ReflexCaptureAgent
 import distanceCalculator

@@ -1,4 +1,5 @@
-# https://github.com/pcgotan/PacmanCTF_Agent/blob/master/myTeam3.py
+# Team we trained against that used pathfinding algorithms. 
+# Full repo can be found here: https://github.com/pcgotan/PacmanCTF_Agent/blob/master/myTeam3.py
 
 from captureAgents import CaptureAgent
 import random
