@@ -10,4 +10,4 @@ For more details, you can [check the provided PDF](https://github.com/robert-cha
 
 ### Importing our team
 
-Copy the [pacboys]() folder and add to your project under the [contest]() directory. Run with `python capture.py -r pacboys/pacboysTeam -b path/to/your/Team`.
+Copy the [pacboys](https://github.com/robert-chatterton/pacman-ctf/tree/master/contest/pacboys) folder and add to your project under the [contest](https://github.com/robert-chatterton/pacman-ctf/tree/master/contest) directory. Run with `python capture.py -r pacboys/pacboysTeam -b path/to/your/Team`.
