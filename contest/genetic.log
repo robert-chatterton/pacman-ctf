@@ -1,1 +1,225 @@
 INFO:root:STARTING GENERATION 0
+INFO:root:HALL MONITOR ITERATION 0: FITNESS: 302 WEIGHTS:
+{'numInvaders': -11255.0, 'distanceFromTeam': 81.0, 'reverse': -96.0, 'distanceToFood': 0.0, 'stop': -76.0, 'invaderDistance': -1452.0, 'foodLeft': -1.0, 'ourFoodLeft': 414.0, 'distanceToOurFood': -44.0, 'onDefense': 146.0}
+INFO:root:KILLA ITERATION 0: FITNESS: 302 WEIGHTS:
+{'numInvaders': 257.0, 'distanceFromTeam': 42.0, 'reverse': -298.0, 'distanceToAlly': 223.0, 'distanceToFood': -436.0, 'stop': -50.0, 'invaderDistance': -105.0, 'distanceToStart': -6046.0, 'ourFoodLeft': -1.0, 'distanceToOurFood': -1.0, 'returnReward': 3770.0, 'onDefense': -165.0, 'foodLeft': -1639.0}
+INFO:root:HALL MONITOR ITERATION 1: FITNESS: 321 WEIGHTS:
+{'numInvaders': -45662.0, 'distanceFromTeam': 59.0, 'reverse': -95.0, 'distanceToFood': 0.0, 'stop': -134.0, 'invaderDistance': -1795.0, 'foodLeft': 0.0, 'ourFoodLeft': 702.0, 'distanceToOurFood': -30.0, 'onDefense': 755.0}
+INFO:root:KILLA ITERATION 1: FITNESS: 321 WEIGHTS:
+{'numInvaders': 168.0, 'distanceFromTeam': 2.0, 'reverse': -611.0, 'distanceToAlly': 274.0, 'distanceToFood': -459.0, 'stop': -84.0, 'invaderDistance': -44.0, 'distanceToStart': -9567.0, 'ourFoodLeft': 0.0, 'distanceToOurFood': 0.0, 'returnReward': 2419.0, 'onDefense': -183.0, 'foodLeft': -1785.0}
+INFO:root:HALL MONITOR ITERATION 2: FITNESS: 319 WEIGHTS:
+{'numInvaders': -41328.0, 'distanceFromTeam': 52.0, 'reverse': -112.0, 'distanceToFood': 1.0, 'stop': -120.0, 'invaderDistance': -1597.0, 'foodLeft': 1.0, 'ourFoodLeft': 607.0, 'distanceToOurFood': -14.0, 'onDefense': 221.0}
+INFO:root:KILLA ITERATION 2: FITNESS: 319 WEIGHTS:
+{'numInvaders': 131.0, 'distanceFromTeam': 19.0, 'reverse': -40.0, 'distanceToAlly': 235.0, 'distanceToFood': -635.0, 'stop': -32.0, 'invaderDistance': -256.0, 'distanceToStart': -8210.0, 'ourFoodLeft': -1.0, 'distanceToOurFood': 1.0, 'returnReward': 3437.0, 'onDefense': -189.0, 'foodLeft': -946.0}
+INFO:root:HALL MONITOR ITERATION 3: FITNESS: 317 WEIGHTS:
+{'numInvaders': -49425.0, 'distanceFromTeam': 58.0, 'reverse': -54.0, 'distanceToFood': 0.0, 'stop': -89.0, 'invaderDistance': -1275.0, 'foodLeft': 1.0, 'ourFoodLeft': 630.0, 'distanceToOurFood': -30.0, 'onDefense': 950.0}
+INFO:root:KILLA ITERATION 3: FITNESS: 317 WEIGHTS:
+{'numInvaders': 218.0, 'distanceFromTeam': 160.0, 'reverse': -321.0, 'distanceToAlly': 147.0, 'distanceToFood': -200.0, 'stop': -28.0, 'invaderDistance': -297.0, 'distanceToStart': -8807.0, 'ourFoodLeft': 1.0, 'distanceToOurFood': 0.0, 'returnReward': 3106.0, 'onDefense': -95.0, 'foodLeft': -1602.0}
+INFO:root:HALL MONITOR ITERATION 4: FITNESS: 301 WEIGHTS:
+{'numInvaders': -12562.0, 'distanceFromTeam': 99.0, 'reverse': -140.0, 'distanceToFood': 1.0, 'stop': -132.0, 'invaderDistance': -1479.0, 'foodLeft': 1.0, 'ourFoodLeft': 405.0, 'distanceToOurFood': -30.0, 'onDefense': 519.0}
+INFO:root:KILLA ITERATION 4: FITNESS: 301 WEIGHTS:
+{'numInvaders': 159.0, 'distanceFromTeam': 37.0, 'reverse': -573.0, 'distanceToAlly': 180.0, 'distanceToFood': -299.0, 'stop': -89.0, 'invaderDistance': -171.0, 'distanceToStart': -6598.0, 'ourFoodLeft': -1.0, 'distanceToOurFood': 0.0, 'returnReward': 3697.0, 'onDefense': -130.0, 'foodLeft': -1482.0}
+INFO:root:HALL MONITOR ITERATION 5: FITNESS: 301 WEIGHTS:
+{'numInvaders': -33827.0, 'distanceFromTeam': 10.0, 'reverse': -54.0, 'distanceToFood': 1.0, 'stop': -121.0, 'invaderDistance': -1952.0, 'foodLeft': -1.0, 'ourFoodLeft': 1060.0, 'distanceToOurFood': -44.0, 'onDefense': 324.0}
+INFO:root:KILLA ITERATION 5: FITNESS: 301 WEIGHTS:
+{'numInvaders': 177.0, 'distanceFromTeam': 27.0, 'reverse': -704.0, 'distanceToAlly': 118.0, 'distanceToFood': -144.0, 'stop': -29.0, 'invaderDistance': -139.0, 'distanceToStart': -4547.0, 'ourFoodLeft': 0.0, 'distanceToOurFood': 1.0, 'returnReward': 3836.0, 'onDefense': -121.0, 'foodLeft': -317.0}
+INFO:root:HALL MONITOR ITERATION 6: FITNESS: 288 WEIGHTS:
+{'numInvaders': -14727.0, 'distanceFromTeam': 10.0, 'reverse': -103.0, 'distanceToFood': -1.0, 'stop': -84.0, 'invaderDistance': -1877.0, 'foodLeft': 1.0, 'ourFoodLeft': 701.0, 'distanceToOurFood': -30.0, 'onDefense': 739.0}
+INFO:root:KILLA ITERATION 6: FITNESS: 288 WEIGHTS:
+{'numInvaders': 289.0, 'distanceFromTeam': 195.0, 'reverse': -610.0, 'distanceToAlly': 258.0, 'distanceToFood': -565.0, 'stop': -12.0, 'invaderDistance': -108.0, 'distanceToStart': -3468.0, 'ourFoodLeft': 0.0, 'distanceToOurFood': -1.0, 'returnReward': 2060.0, 'onDefense': -167.0, 'foodLeft': -1711.0}
+INFO:root:HALL MONITOR ITERATION 7: FITNESS: 302 WEIGHTS:
+{'numInvaders': -25886.0, 'distanceFromTeam': 51.0, 'reverse': -91.0, 'distanceToFood': 0.0, 'stop': -91.0, 'invaderDistance': -1414.0, 'foodLeft': 1.0, 'ourFoodLeft': 487.0, 'distanceToOurFood': -50.0, 'onDefense': 314.0}
+INFO:root:KILLA ITERATION 7: FITNESS: 302 WEIGHTS:
+{'numInvaders': 110.0, 'distanceFromTeam': 59.0, 'reverse': -213.0, 'distanceToAlly': 66.0, 'distanceToFood': -674.0, 'stop': -39.0, 'invaderDistance': -235.0, 'distanceToStart': -7482.0, 'ourFoodLeft': -1.0, 'distanceToOurFood': -1.0, 'returnReward': 3001.0, 'onDefense': -86.0, 'foodLeft': -1757.0}
+INFO:root:HALL MONITOR ITERATION 8: FITNESS: 300 WEIGHTS:
+{'numInvaders': -43297.0, 'distanceFromTeam': 69.0, 'reverse': -127.0, 'distanceToFood': 0.0, 'stop': -98.0, 'invaderDistance': -1169.0, 'foodLeft': 0.0, 'ourFoodLeft': 504.0, 'distanceToOurFood': -36.0, 'onDefense': 416.0}
+INFO:root:KILLA ITERATION 8: FITNESS: 300 WEIGHTS:
+{'numInvaders': 247.0, 'distanceFromTeam': 187.0, 'reverse': -996.0, 'distanceToAlly': 141.0, 'distanceToFood': -284.0, 'stop': -43.0, 'invaderDistance': -288.0, 'distanceToStart': -6061.0, 'ourFoodLeft': 0.0, 'distanceToOurFood': -1.0, 'returnReward': 3981.0, 'onDefense': -62.0, 'foodLeft': -1707.0}
+INFO:root:HALL MONITOR ITERATION 9: FITNESS: 320 WEIGHTS:
+{'numInvaders': -37728.0, 'distanceFromTeam': 61.0, 'reverse': -123.0, 'distanceToFood': 1.0, 'stop': -90.0, 'invaderDistance': -1879.0, 'foodLeft': 0.0, 'ourFoodLeft': 654.0, 'distanceToOurFood': -47.0, 'onDefense': 372.0}
+INFO:root:AGENT 0 CHOSEN PARENT: (321, {'numInvaders': -45662.0, 'distanceFromTeam': 59.0, 'reverse': -95.0, 'distanceToFood': 0.0, 'stop': -134.0, 'invaderDistance': -1795.0, 'foodLeft': 0.0, 'ourFoodLeft': 702.0, 'distanceToOurFood': -30.0, 'onDefense': 755.0})
+INFO:root:STARTING GENERATION 1
+INFO:root:KILLA ITERATION 9: FITNESS: 320 WEIGHTS:
+{'numInvaders': 124.0, 'distanceFromTeam': 82.0, 'reverse': -63.0, 'distanceToAlly': 80.0, 'distanceToFood': -672.0, 'stop': -50.0, 'invaderDistance': -284.0, 'distanceToStart': -7155.0, 'ourFoodLeft': -1.0, 'distanceToOurFood': -1.0, 'returnReward': 3049.0, 'onDefense': -169.0, 'foodLeft': -1288.0}
+INFO:root:KILLA: CHOSEN PARENT: (321, {'numInvaders': 168.0, 'distanceFromTeam': 2.0, 'reverse': -611.0, 'distanceToAlly': 274.0, 'distanceToFood': -459.0, 'stop': -84.0, 'invaderDistance': -44.0, 'distanceToStart': -9567.0, 'ourFoodLeft': 0.0, 'distanceToOurFood': 0.0, 'returnReward': 2419.0, 'onDefense': -183.0, 'foodLeft': -1785.0})
+INFO:root:STARTING GENERATION 1
+INFO:root:HALL MONITOR ITERATION 10: FITNESS: 255 WEIGHTS:
+{'numInvaders': -16940.5, 'distanceFromTeam': 35.5, 'reverse': -11.0, 'distanceToFood': -0.5, 'stop': -62.0, 'invaderDistance': -953.5, 'foodLeft': 0.5, 'ourFoodLeft': 323.0, 'distanceToOurFood': -9.0, 'onDefense': 302.0}
+INFO:root:KILLA ITERATION 10: FITNESS: 255 WEIGHTS:
+{'numInvaders': 169.5, 'distanceFromTeam': 4.5, 'reverse': -43.5, 'distanceToAlly': 92.5, 'distanceToFood': -128.5, 'stop': -17.5, 'invaderDistance': -11.5, 'distanceToStart': -3247.0, 'ourFoodLeft': 0.5, 'distanceToOurFood': 0.0, 'returnReward': 1126.5, 'onDefense': -44.5, 'foodLeft': -863.5}
+INFO:root:HALL MONITOR ITERATION 11: FITNESS: 301 WEIGHTS:
+{'numInvaders': -11705.5, 'distanceFromTeam': 27.0, 'reverse': -68.5, 'distanceToFood': 0.0, 'stop': -29.0, 'invaderDistance': -730.5, 'foodLeft': 0.5, 'ourFoodLeft': 238.5, 'distanceToOurFood': -21.5, 'onDefense': 253.5}
+INFO:root:KILLA ITERATION 11: FITNESS: 301 WEIGHTS:
+{'numInvaders': 118.5, 'distanceFromTeam': 66.5, 'reverse': -339.0, 'distanceToAlly': 65.5, 'distanceToFood': -139.0, 'stop': -17.0, 'invaderDistance': -75.5, 'distanceToStart': -4671.5, 'ourFoodLeft': -0.5, 'distanceToOurFood': 0.5, 'returnReward': 1959.5, 'onDefense': -95.5, 'foodLeft': -953.0}
+INFO:root:HALL MONITOR ITERATION 12: FITNESS: 114 WEIGHTS:
+{'numInvaders': -13791.5, 'distanceFromTeam': 26.5, 'reverse': -75.0, 'distanceToFood': 0.5, 'stop': -50.0, 'invaderDistance': -586.0, 'foodLeft': -0.5, 'ourFoodLeft': 361.0, 'distanceToOurFood': -17.0, 'onDefense': 218.5}
+INFO:root:KILLA ITERATION 12: FITNESS: 114 WEIGHTS:
+{'numInvaders': 101.5, 'distanceFromTeam': 16.5, 'reverse': -399.0, 'distanceToAlly': 104.0, 'distanceToFood': -341.0, 'stop': -16.5, 'invaderDistance': -135.5, 'distanceToStart': -4504.5, 'ourFoodLeft': -0.5, 'distanceToOurFood': 0.5, 'returnReward': 1291.0, 'onDefense': -71.5, 'foodLeft': -447.0}
+INFO:root:HALL MONITOR ITERATION 13: FITNESS: 303 WEIGHTS:
+{'numInvaders': -18327.0, 'distanceFromTeam': 10.0, 'reverse': -42.0, 'distanceToFood': 0.0, 'stop': -53.0, 'invaderDistance': -529.0, 'foodLeft': -0.5, 'ourFoodLeft': 542.0, 'distanceToOurFood': -23.0, 'onDefense': 182.0}
+INFO:root:KILLA ITERATION 13: FITNESS: 303 WEIGHTS:
+{'numInvaders': 117.5, 'distanceFromTeam': 68.5, 'reverse': -298.0, 'distanceToAlly': 83.0, 'distanceToFood': -315.5, 'stop': -42.5, 'invaderDistance': -130.5, 'distanceToStart': -3213.0, 'ourFoodLeft': 0.5, 'distanceToOurFood': -0.5, 'returnReward': 1546.5, 'onDefense': -49.5, 'foodLeft': -344.5}
+INFO:root:HALL MONITOR ITERATION 14: FITNESS: 107 WEIGHTS:
+{'numInvaders': -9556.0, 'distanceFromTeam': 5.5, 'reverse': -46.5, 'distanceToFood': -0.5, 'stop': -75.0, 'invaderDistance': -893.0, 'foodLeft': 0.0, 'ourFoodLeft': 430.0, 'distanceToOurFood': -9.0, 'onDefense': 308.5}
+INFO:root:KILLA ITERATION 14: FITNESS: 107 WEIGHTS:
+{'numInvaders': 153.5, 'distanceFromTeam': 23.5, 'reverse': -398.5, 'distanceToAlly': 115.5, 'distanceToFood': -214.5, 'stop': -40.5, 'invaderDistance': -81.5, 'distanceToStart': -2488.0, 'ourFoodLeft': 0.5, 'distanceToOurFood': -0.5, 'returnReward': 1347.5, 'onDefense': -91.5, 'foodLeft': -291.0}
+INFO:root:HALL MONITOR ITERATION 15: FITNESS: 303 WEIGHTS:
+{'numInvaders': -21546.0, 'distanceFromTeam': 30.5, 'reverse': -21.5, 'distanceToFood': -0.5, 'stop': -39.0, 'invaderDistance': -687.0, 'foodLeft': -0.5, 'ourFoodLeft': 492.0, 'distanceToOurFood': -15.0, 'onDefense': 381.0}
+INFO:root:KILLA ITERATION 15: FITNESS: 303 WEIGHTS:
+{'numInvaders': 69.5, 'distanceFromTeam': 31.0, 'reverse': -350.5, 'distanceToAlly': 98.0, 'distanceToFood': -186.5, 'stop': -48.5, 'invaderDistance': -41.5, 'distanceToStart': -1530.0, 'ourFoodLeft': -0.5, 'distanceToOurFood': 0.5, 'returnReward': 1318.5, 'onDefense': -84.5, 'foodLeft': -771.0}
+INFO:root:HALL MONITOR ITERATION 16: FITNESS: 272 WEIGHTS:
+{'numInvaders': -10911.0, 'distanceFromTeam': 28.0, 'reverse': -17.0, 'distanceToFood': -0.5, 'stop': -57.5, 'invaderDistance': -571.0, 'foodLeft': 0.5, 'ourFoodLeft': 176.0, 'distanceToOurFood': -14.5, 'onDefense': 143.5}
+INFO:root:KILLA ITERATION 16: FITNESS: 272 WEIGHTS:
+{'numInvaders': 96.0, 'distanceFromTeam': 59.5, 'reverse': -134.5, 'distanceToAlly': 51.0, 'distanceToFood': -199.5, 'stop': -36.5, 'invaderDistance': -36.0, 'distanceToStart': -4288.5, 'ourFoodLeft': 0.0, 'distanceToOurFood': 0.5, 'returnReward': 1370.0, 'onDefense': -62.0, 'foodLeft': -414.0}
+INFO:root:HALL MONITOR ITERATION 17: FITNESS: 323 WEIGHTS:
+{'numInvaders': -12765.0, 'distanceFromTeam': 41.5, 'reverse': -49.0, 'distanceToFood': 0.0, 'stop': -67.5, 'invaderDistance': -974.0, 'foodLeft': -0.5, 'ourFoodLeft': 543.0, 'distanceToOurFood': -17.5, 'onDefense': 154.5}
+INFO:root:KILLA ITERATION 17: FITNESS: 323 WEIGHTS:
+{'numInvaders': 53.0, 'distanceFromTeam': 19.5, 'reverse': -266.0, 'distanceToAlly': 54.0, 'distanceToFood': -349.0, 'stop': -24.5, 'invaderDistance': -12.0, 'distanceToStart': -3954.5, 'ourFoodLeft': 0.5, 'distanceToOurFood': 0.0, 'returnReward': 1191.0, 'onDefense': -68.5, 'foodLeft': -211.0}
+INFO:root:HALL MONITOR ITERATION 18: FITNESS: 303 WEIGHTS:
+{'numInvaders': -18427.0, 'distanceFromTeam': 36.5, 'reverse': -45.5, 'distanceToFood': 0.5, 'stop': -30.5, 'invaderDistance': -555.5, 'foodLeft': 0.5, 'ourFoodLeft': 239.5, 'distanceToOurFood': -12.5, 'onDefense': 59.5}
+INFO:root:KILLA ITERATION 18: FITNESS: 303 WEIGHTS:
+{'numInvaders': 128.5, 'distanceFromTeam': 15.5, 'reverse': -7.0, 'distanceToAlly': 107.5, 'distanceToFood': -171.0, 'stop': -31.0, 'invaderDistance': -101.0, 'distanceToStart': -3439.5, 'ourFoodLeft': 0.0, 'distanceToOurFood': 0.0, 'returnReward': 1439.0, 'onDefense': -51.5, 'foodLeft': -891.0}
+INFO:root:HALL MONITOR ITERATION 19: FITNESS: 293 WEIGHTS:
+{'numInvaders': -21400.5, 'distanceFromTeam': 11.5, 'reverse': -74.0, 'distanceToFood': 0.0, 'stop': -28.5, 'invaderDistance': -975.5, 'foodLeft': 0.0, 'ourFoodLeft': 448.5, 'distanceToOurFood': -5.0, 'onDefense': 292.0}
+INFO:root:AGENT 0 CHOSEN PARENT: (323, {'numInvaders': -12765.0, 'distanceFromTeam': 41.5, 'reverse': -49.0, 'distanceToFood': 0.0, 'stop': -67.5, 'invaderDistance': -974.0, 'foodLeft': -0.5, 'ourFoodLeft': 543.0, 'distanceToOurFood': -17.5, 'onDefense': 154.5})
+INFO:root:STARTING GENERATION 2
+INFO:root:KILLA ITERATION 19: FITNESS: 293 WEIGHTS:
+{'numInvaders': 110.0, 'distanceFromTeam': 40.0, 'reverse': -176.5, 'distanceToAlly': 132.0, 'distanceToFood': -233.0, 'stop': -13.0, 'invaderDistance': -129.0, 'distanceToStart': -2191.0, 'ourFoodLeft': 0.5, 'distanceToOurFood': 0.5, 'returnReward': 1864.0, 'onDefense': -94.0, 'foodLeft': -830.5}
+INFO:root:KILLA: CHOSEN PARENT: (323, {'numInvaders': 53.0, 'distanceFromTeam': 19.5, 'reverse': -266.0, 'distanceToAlly': 54.0, 'distanceToFood': -349.0, 'stop': -24.5, 'invaderDistance': -12.0, 'distanceToStart': -3954.5, 'ourFoodLeft': 0.5, 'distanceToOurFood': 0.0, 'returnReward': 1191.0, 'onDefense': -68.5, 'foodLeft': -211.0})
+INFO:root:STARTING GENERATION 2
+INFO:root:HALL MONITOR ITERATION 20: FITNESS: 301 WEIGHTS:
+{'numInvaders': -7384.666666666667, 'distanceFromTeam': 33.333333333333336, 'reverse': -42.333333333333336, 'distanceToFood': 0.0, 'stop': -36.0, 'invaderDistance': -637.0, 'foodLeft': 0.3333333333333333, 'ourFoodLeft': 346.0, 'distanceToOurFood': -16.666666666666668, 'onDefense': 174.33333333333334}
+INFO:root:KILLA ITERATION 20: FITNESS: 301 WEIGHTS:
+{'numInvaders': 42.666666666666664, 'distanceFromTeam': 65.66666666666667, 'reverse': -264.0, 'distanceToAlly': 18.0, 'distanceToFood': -171.0, 'stop': -12.333333333333334, 'invaderDistance': -23.333333333333332, 'distanceToStart': -3254.6666666666665, 'ourFoodLeft': 0.0, 'distanceToOurFood': 0.3333333333333333, 'returnReward': 781.6666666666666, 'onDefense': -54.666666666666664, 'foodLeft': -294.6666666666667}
+INFO:root:HALL MONITOR ITERATION 21: FITNESS: 307 WEIGHTS:
+{'numInvaders': -11502.666666666666, 'distanceFromTeam': 29.0, 'reverse': -38.666666666666664, 'distanceToFood': -0.3333333333333333, 'stop': -36.333333333333336, 'invaderDistance': -403.6666666666667, 'foodLeft': 0.0, 'ourFoodLeft': 354.3333333333333, 'distanceToOurFood': -6.0, 'onDefense': 330.0}
+INFO:root:KILLA ITERATION 21: FITNESS: 307 WEIGHTS:
+{'numInvaders': 40.333333333333336, 'distanceFromTeam': 52.0, 'reverse': -81.0, 'distanceToAlly': 58.666666666666664, 'distanceToFood': -156.33333333333334, 'stop': -26.666666666666668, 'invaderDistance': -18.333333333333332, 'distanceToStart': -1596.3333333333333, 'ourFoodLeft': 0.3333333333333333, 'distanceToOurFood': 0.3333333333333333, 'returnReward': 1012.6666666666666, 'onDefense': -32.666666666666664, 'foodLeft': -192.33333333333334}
+INFO:root:HALL MONITOR ITERATION 22: FITNESS: 301 WEIGHTS:
+{'numInvaders': -16588.0, 'distanceFromTeam': 10.333333333333334, 'reverse': -39.0, 'distanceToFood': 0.3333333333333333, 'stop': -30.666666666666668, 'invaderDistance': -467.6666666666667, 'foodLeft': 0.0, 'ourFoodLeft': 237.0, 'distanceToOurFood': -11.0, 'onDefense': 77.33333333333333}
+INFO:root:KILLA ITERATION 22: FITNESS: 301 WEIGHTS:
+{'numInvaders': 121.66666666666667, 'distanceFromTeam': 22.333333333333332, 'reverse': -295.3333333333333, 'distanceToAlly': 25.333333333333332, 'distanceToFood': -91.66666666666667, 'stop': -32.666666666666664, 'invaderDistance': -21.0, 'distanceToStart': -2172.3333333333335, 'ourFoodLeft': 0.0, 'distanceToOurFood': 0.0, 'returnReward': 1241.6666666666667, 'onDefense': -24.666666666666668, 'foodLeft': -519.6666666666666}
+INFO:root:HALL MONITOR ITERATION 23: FITNESS: 301 WEIGHTS:
+{'numInvaders': -3767.6666666666665, 'distanceFromTeam': 19.333333333333332, 'reverse': -14.333333333333334, 'distanceToFood': 0.0, 'stop': -44.333333333333336, 'invaderDistance': -396.3333333333333, 'foodLeft': 0.3333333333333333, 'ourFoodLeft': 283.3333333333333, 'distanceToOurFood': -7.333333333333333, 'onDefense': 184.33333333333334}
+INFO:root:KILLA ITERATION 23: FITNESS: 301 WEIGHTS:
+{'numInvaders': 96.0, 'distanceFromTeam': 7.333333333333333, 'reverse': -247.66666666666666, 'distanceToAlly': 29.666666666666668, 'distanceToFood': -103.0, 'stop': -15.333333333333334, 'invaderDistance': -89.66666666666667, 'distanceToStart': -1963.0, 'ourFoodLeft': 0.3333333333333333, 'distanceToOurFood': 0.3333333333333333, 'returnReward': 839.0, 'onDefense': -50.0, 'foodLeft': -151.66666666666666}
+INFO:root:HALL MONITOR ITERATION 24: FITNESS: 310 WEIGHTS:
+{'numInvaders': -10507.333333333334, 'distanceFromTeam': 32.333333333333336, 'reverse': -17.333333333333332, 'distanceToFood': 0.0, 'stop': -25.666666666666668, 'invaderDistance': -605.6666666666666, 'foodLeft': 0.3333333333333333, 'ourFoodLeft': 310.3333333333333, 'distanceToOurFood': -14.666666666666666, 'onDefense': 49.666666666666664}
+INFO:root:KILLA ITERATION 24: FITNESS: 310 WEIGHTS:
+{'numInvaders': 69.33333333333333, 'distanceFromTeam': 60.0, 'reverse': -326.6666666666667, 'distanceToAlly': 26.666666666666668, 'distanceToFood': -56.666666666666664, 'stop': -23.666666666666668, 'invaderDistance': -75.0, 'distanceToStart': -2488.3333333333335, 'ourFoodLeft': -0.3333333333333333, 'distanceToOurFood': 0.3333333333333333, 'returnReward': 711.6666666666666, 'onDefense': -57.333333333333336, 'foodLeft': -395.3333333333333}
+INFO:root:HALL MONITOR ITERATION 25: FITNESS: 318 WEIGHTS:
+{'numInvaders': -12680.0, 'distanceFromTeam': 28.666666666666668, 'reverse': -38.333333333333336, 'distanceToFood': 0.3333333333333333, 'stop': -18.0, 'invaderDistance': -580.0, 'foodLeft': -0.3333333333333333, 'ourFoodLeft': 220.0, 'distanceToOurFood': -8.666666666666666, 'onDefense': 182.66666666666666}
+INFO:root:KILLA ITERATION 25: FITNESS: 318 WEIGHTS:
+{'numInvaders': 69.66666666666667, 'distanceFromTeam': 63.0, 'reverse': -85.0, 'distanceToAlly': 46.333333333333336, 'distanceToFood': -199.33333333333334, 'stop': -17.0, 'invaderDistance': -67.66666666666667, 'distanceToStart': -3087.3333333333335, 'ourFoodLeft': -0.3333333333333333, 'distanceToOurFood': 0.0, 'returnReward': 1154.3333333333333, 'onDefense': -55.333333333333336, 'foodLeft': -625.3333333333334}
+INFO:root:HALL MONITOR ITERATION 26: FITNESS: 300 WEIGHTS:
+{'numInvaders': -13541.333333333334, 'distanceFromTeam': 18.0, 'reverse': -19.0, 'distanceToFood': 0.3333333333333333, 'stop': -40.333333333333336, 'invaderDistance': -662.0, 'foodLeft': 0.3333333333333333, 'ourFoodLeft': 206.66666666666666, 'distanceToOurFood': -5.333333333333333, 'onDefense': 172.33333333333334}
+INFO:root:KILLA ITERATION 26: FITNESS: 300 WEIGHTS:
+{'numInvaders': 130.0, 'distanceFromTeam': 32.333333333333336, 'reverse': -177.0, 'distanceToAlly': 51.0, 'distanceToFood': -34.333333333333336, 'stop': -26.666666666666668, 'invaderDistance': -34.333333333333336, 'distanceToStart': -2733.6666666666665, 'ourFoodLeft': -0.3333333333333333, 'distanceToOurFood': 0.3333333333333333, 'returnReward': 1205.0, 'onDefense': -59.333333333333336, 'foodLeft': -153.0}
+INFO:root:HALL MONITOR ITERATION 27: FITNESS: 318 WEIGHTS:
+{'numInvaders': -15875.0, 'distanceFromTeam': 16.333333333333332, 'reverse': -22.666666666666668, 'distanceToFood': 0.3333333333333333, 'stop': -36.0, 'invaderDistance': -374.3333333333333, 'foodLeft': -0.3333333333333333, 'ourFoodLeft': 137.0, 'distanceToOurFood': -13.333333333333334, 'onDefense': 215.0}
+INFO:root:KILLA ITERATION 27: FITNESS: 318 WEIGHTS:
+{'numInvaders': 61.333333333333336, 'distanceFromTeam': 33.333333333333336, 'reverse': -68.33333333333333, 'distanceToAlly': 68.0, 'distanceToFood': -115.66666666666667, 'stop': -11.0, 'invaderDistance': -39.666666666666664, 'distanceToStart': -2232.0, 'ourFoodLeft': 0.3333333333333333, 'distanceToOurFood': -0.3333333333333333, 'returnReward': 964.0, 'onDefense': -24.333333333333332, 'foodLeft': -292.6666666666667}
+INFO:root:HALL MONITOR ITERATION 28: FITNESS: 311 WEIGHTS:
+{'numInvaders': -5008.333333333333, 'distanceFromTeam': 16.666666666666668, 'reverse': -38.0, 'distanceToFood': 0.0, 'stop': -29.0, 'invaderDistance': -630.3333333333334, 'foodLeft': 0.3333333333333333, 'ourFoodLeft': 293.0, 'distanceToOurFood': -9.333333333333334, 'onDefense': 171.33333333333334}
+INFO:root:KILLA ITERATION 28: FITNESS: 311 WEIGHTS:
+{'numInvaders': 62.0, 'distanceFromTeam': 18.333333333333332, 'reverse': -59.333333333333336, 'distanceToAlly': 70.0, 'distanceToFood': -38.333333333333336, 'stop': -25.666666666666668, 'invaderDistance': -76.33333333333333, 'distanceToStart': -1862.0, 'ourFoodLeft': 0.0, 'distanceToOurFood': 0.0, 'returnReward': 1158.3333333333333, 'onDefense': -51.333333333333336, 'foodLeft': -128.66666666666666}
+INFO:root:HALL MONITOR ITERATION 29: FITNESS: 222 WEIGHTS:
+{'numInvaders': -15731.333333333334, 'distanceFromTeam': 26.0, 'reverse': -14.0, 'distanceToFood': -0.3333333333333333, 'stop': -24.0, 'invaderDistance': -613.0, 'foodLeft': -0.3333333333333333, 'ourFoodLeft': 330.3333333333333, 'distanceToOurFood': -16.333333333333332, 'onDefense': 172.66666666666666}
+INFO:root:AGENT 0 CHOSEN PARENT: (318, {'numInvaders': -15875.0, 'distanceFromTeam': 16.333333333333332, 'reverse': -22.666666666666668, 'distanceToFood': 0.3333333333333333, 'stop': -36.0, 'invaderDistance': -374.3333333333333, 'foodLeft': -0.3333333333333333, 'ourFoodLeft': 137.0, 'distanceToOurFood': -13.333333333333334, 'onDefense': 215.0})
+INFO:root:STARTING GENERATION 3
+INFO:root:KILLA ITERATION 29: FITNESS: 222 WEIGHTS:
+{'numInvaders': 120.33333333333333, 'distanceFromTeam': 2.3333333333333335, 'reverse': -118.33333333333333, 'distanceToAlly': 83.33333333333333, 'distanceToFood': -113.66666666666667, 'stop': -31.666666666666668, 'invaderDistance': -60.666666666666664, 'distanceToStart': -1918.3333333333333, 'ourFoodLeft': -0.3333333333333333, 'distanceToOurFood': 0.3333333333333333, 'returnReward': 899.0, 'onDefense': -28.0, 'foodLeft': -559.0}
+INFO:root:KILLA: CHOSEN PARENT: (318, {'numInvaders': 61.333333333333336, 'distanceFromTeam': 33.333333333333336, 'reverse': -68.33333333333333, 'distanceToAlly': 68.0, 'distanceToFood': -115.66666666666667, 'stop': -11.0, 'invaderDistance': -39.666666666666664, 'distanceToStart': -2232.0, 'ourFoodLeft': 0.3333333333333333, 'distanceToOurFood': -0.3333333333333333, 'returnReward': 964.0, 'onDefense': -24.333333333333332, 'foodLeft': -292.6666666666667})
+INFO:root:STARTING GENERATION 3
+INFO:root:HALL MONITOR ITERATION 30: FITNESS: 287 WEIGHTS:
+{'numInvaders': -2592.75, 'distanceFromTeam': 19.25, 'reverse': -28.5, 'distanceToFood': 0.0, 'stop': -25.0, 'invaderDistance': -479.0, 'foodLeft': 0.25, 'ourFoodLeft': 176.75, 'distanceToOurFood': -11.5, 'onDefense': 42.5}
+INFO:root:KILLA ITERATION 30: FITNESS: 287 WEIGHTS:
+{'numInvaders': 80.75, 'distanceFromTeam': 8.25, 'reverse': -45.0, 'distanceToAlly': 29.25, 'distanceToFood': -107.25, 'stop': -8.5, 'invaderDistance': -43.75, 'distanceToStart': -2301.75, 'ourFoodLeft': 0.0, 'distanceToOurFood': 0.0, 'returnReward': 967.25, 'onDefense': -45.75, 'foodLeft': -117.25}
+INFO:root:HALL MONITOR ITERATION 31: FITNESS: 302 WEIGHTS:
+{'numInvaders': -4578.0, 'distanceFromTeam': 6.5, 'reverse': -4.75, 'distanceToFood': -0.25, 'stop': -12.75, 'invaderDistance': -483.0, 'foodLeft': 0.25, 'ourFoodLeft': 142.5, 'distanceToOurFood': -7.5, 'onDefense': 73.75}
+INFO:root:KILLA ITERATION 31: FITNESS: 302 WEIGHTS:
+{'numInvaders': 37.0, 'distanceFromTeam': 19.0, 'reverse': -95.25, 'distanceToAlly': 33.0, 'distanceToFood': -94.25, 'stop': -14.0, 'invaderDistance': -42.25, 'distanceToStart': -845.0, 'ourFoodLeft': -0.25, 'distanceToOurFood': 0.25, 'returnReward': 758.0, 'onDefense': -41.75, 'foodLeft': -295.75}
+INFO:root:HALL MONITOR ITERATION 32: FITNESS: 302 WEIGHTS:
+{'numInvaders': -9846.75, 'distanceFromTeam': 3.25, 'reverse': -21.5, 'distanceToFood': -0.25, 'stop': -36.0, 'invaderDistance': -430.25, 'foodLeft': 0.25, 'ourFoodLeft': 134.25, 'distanceToOurFood': -12.25, 'onDefense': 83.5}
+INFO:root:KILLA ITERATION 32: FITNESS: 302 WEIGHTS:
+{'numInvaders': 100.0, 'distanceFromTeam': 36.75, 'reverse': -5.75, 'distanceToAlly': 26.25, 'distanceToFood': -90.0, 'stop': -16.0, 'invaderDistance': -3.75, 'distanceToStart': -1225.75, 'ourFoodLeft': -0.25, 'distanceToOurFood': -0.25, 'returnReward': 753.5, 'onDefense': -19.75, 'foodLeft': -412.75}
+INFO:root:HALL MONITOR ITERATION 33: FITNESS: 50 WEIGHTS:
+{'numInvaders': -3792.75, 'distanceFromTeam': 11.25, 'reverse': -33.75, 'distanceToFood': 0.25, 'stop': -15.0, 'invaderDistance': -387.25, 'foodLeft': 0.0, 'ourFoodLeft': 219.5, 'distanceToOurFood': -5.25, 'onDefense': 132.5}
+INFO:root:KILLA ITERATION 33: FITNESS: 50 WEIGHTS:
+{'numInvaders': 27.25, 'distanceFromTeam': 45.75, 'reverse': -8.25, 'distanceToAlly': 37.5, 'distanceToFood': -116.5, 'stop': -13.5, 'invaderDistance': -3.25, 'distanceToStart': -1679.0, 'ourFoodLeft': 0.25, 'distanceToOurFood': 0.0, 'returnReward': 644.25, 'onDefense': -47.5, 'foodLeft': -422.0}
+INFO:root:HALL MONITOR ITERATION 34: FITNESS: 315 WEIGHTS:
+{'numInvaders': -3509.0, 'distanceFromTeam': 24.5, 'reverse': -29.25, 'distanceToFood': 0.25, 'stop': -21.0, 'invaderDistance': -296.5, 'foodLeft': 0.25, 'ourFoodLeft': 87.0, 'distanceToOurFood': -3.5, 'onDefense': 194.25}
+INFO:root:KILLA ITERATION 34: FITNESS: 315 WEIGHTS:
+{'numInvaders': 88.75, 'distanceFromTeam': 41.5, 'reverse': -140.0, 'distanceToAlly': 40.5, 'distanceToFood': -71.0, 'stop': -23.0, 'invaderDistance': -68.5, 'distanceToStart': -2457.5, 'ourFoodLeft': 0.0, 'distanceToOurFood': 0.0, 'returnReward': 739.75, 'onDefense': -41.0, 'foodLeft': -429.75}
+INFO:root:HALL MONITOR ITERATION 35: FITNESS: 312 WEIGHTS:
+{'numInvaders': -9409.0, 'distanceFromTeam': 3.5, 'reverse': -4.75, 'distanceToFood': -0.25, 'stop': -28.5, 'invaderDistance': -258.75, 'foodLeft': -0.25, 'ourFoodLeft': 270.75, 'distanceToOurFood': -6.0, 'onDefense': 209.75}
+INFO:root:KILLA ITERATION 35: FITNESS: 312 WEIGHTS:
+{'numInvaders': 47.0, 'distanceFromTeam': 10.75, 'reverse': -76.0, 'distanceToAlly': 48.5, 'distanceToFood': -143.75, 'stop': -23.0, 'invaderDistance': -21.25, 'distanceToStart': -1664.25, 'ourFoodLeft': -0.25, 'distanceToOurFood': -0.25, 'returnReward': 605.5, 'onDefense': -35.5, 'foodLeft': -77.75}
+INFO:root:HALL MONITOR ITERATION 36: FITNESS: 318 WEIGHTS:
+{'numInvaders': -9095.75, 'distanceFromTeam': 13.25, 'reverse': -22.0, 'distanceToFood': -0.25, 'stop': -21.25, 'invaderDistance': -340.75, 'foodLeft': 0.25, 'ourFoodLeft': 88.25, 'distanceToOurFood': -10.75, 'onDefense': 104.0}
+INFO:root:KILLA ITERATION 36: FITNESS: 318 WEIGHTS:
+{'numInvaders': 59.0, 'distanceFromTeam': 12.75, 'reverse': -128.0, 'distanceToAlly': 16.75, 'distanceToFood': -128.25, 'stop': -19.0, 'invaderDistance': -30.0, 'distanceToStart': -2454.0, 'ourFoodLeft': 0.25, 'distanceToOurFood': 0.0, 'returnReward': 934.0, 'onDefense': -39.5, 'foodLeft': -122.5}
+INFO:root:HALL MONITOR ITERATION 37: FITNESS: 312 WEIGHTS:
+{'numInvaders': -7761.25, 'distanceFromTeam': 11.75, 'reverse': -32.0, 'distanceToFood': -0.25, 'stop': -28.75, 'invaderDistance': -342.5, 'foodLeft': 0.25, 'ourFoodLeft': 218.75, 'distanceToOurFood': -7.0, 'onDefense': 147.25}
+INFO:root:KILLA ITERATION 37: FITNESS: 312 WEIGHTS:
+{'numInvaders': 68.75, 'distanceFromTeam': 23.75, 'reverse': -109.75, 'distanceToAlly': 69.25, 'distanceToFood': -75.25, 'stop': -3.0, 'invaderDistance': -34.25, 'distanceToStart': -1892.25, 'ourFoodLeft': 0.0, 'distanceToOurFood': 0.25, 'returnReward': 561.0, 'onDefense': -38.5, 'foodLeft': -228.0}
+INFO:root:HALL MONITOR ITERATION 38: FITNESS: 315 WEIGHTS:
+{'numInvaders': -8453.25, 'distanceFromTeam': 21.0, 'reverse': -19.5, 'distanceToFood': 0.0, 'stop': -33.75, 'invaderDistance': -463.0, 'foodLeft': 0.0, 'ourFoodLeft': 117.75, 'distanceToOurFood': -5.5, 'onDefense': 59.75}
+INFO:root:KILLA ITERATION 38: FITNESS: 315 WEIGHTS:
+{'numInvaders': 82.0, 'distanceFromTeam': 34.5, 'reverse': -111.5, 'distanceToAlly': 48.25, 'distanceToFood': -142.0, 'stop': -18.25, 'invaderDistance': -31.75, 'distanceToStart': -1111.5, 'ourFoodLeft': 0.25, 'distanceToOurFood': 0.0, 'returnReward': 940.0, 'onDefense': -48.25, 'foodLeft': -155.25}
+INFO:root:HALL MONITOR ITERATION 39: FITNESS: 316 WEIGHTS:
+{'numInvaders': -7647.0, 'distanceFromTeam': 22.75, 'reverse': -17.25, 'distanceToFood': 0.25, 'stop': -15.75, 'invaderDistance': -418.25, 'foodLeft': -0.25, 'ourFoodLeft': 239.75, 'distanceToOurFood': -10.25, 'onDefense': 25.25}
+INFO:root:AGENT 0 CHOSEN PARENT: (318, {'numInvaders': -9095.75, 'distanceFromTeam': 13.25, 'reverse': -22.0, 'distanceToFood': -0.25, 'stop': -21.25, 'invaderDistance': -340.75, 'foodLeft': 0.25, 'ourFoodLeft': 88.25, 'distanceToOurFood': -10.75, 'onDefense': 104.0})
+INFO:root:STARTING GENERATION 4
+INFO:root:KILLA ITERATION 39: FITNESS: 316 WEIGHTS:
+{'numInvaders': 84.0, 'distanceFromTeam': 35.5, 'reverse': -207.75, 'distanceToAlly': 34.5, 'distanceToFood': -136.5, 'stop': -23.0, 'invaderDistance': -29.25, 'distanceToStart': -1362.0, 'ourFoodLeft': -0.25, 'distanceToOurFood': 0.25, 'returnReward': 741.0, 'onDefense': -23.25, 'foodLeft': -142.5}
+INFO:root:KILLA: CHOSEN PARENT: (318, {'numInvaders': 59.0, 'distanceFromTeam': 12.75, 'reverse': -128.0, 'distanceToAlly': 16.75, 'distanceToFood': -128.25, 'stop': -19.0, 'invaderDistance': -30.0, 'distanceToStart': -2454.0, 'ourFoodLeft': 0.25, 'distanceToOurFood': 0.0, 'returnReward': 934.0, 'onDefense': -39.5, 'foodLeft': -122.5})
+INFO:root:STARTING GENERATION 4
+INFO:root:HALL MONITOR ITERATION 40: FITNESS: 314 WEIGHTS:
+{'numInvaders': -2981.4, 'distanceFromTeam': 16.8, 'reverse': -19.8, 'distanceToFood': 0.2, 'stop': -16.8, 'invaderDistance': -378.0, 'foodLeft': 0.2, 'ourFoodLeft': 80.0, 'distanceToOurFood': -6.6, 'onDefense': 101.0}
+INFO:root:KILLA ITERATION 40: FITNESS: 314 WEIGHTS:
+{'numInvaders': 49.8, 'distanceFromTeam': 13.0, 'reverse': -139.4, 'distanceToAlly': 34.4, 'distanceToFood': -129.4, 'stop': -3.2, 'invaderDistance': -46.8, 'distanceToStart': -1870.4, 'ourFoodLeft': 0.2, 'distanceToOurFood': 0.0, 'returnReward': 680.0, 'onDefense': -15.4, 'foodLeft': -262.4}
+INFO:root:HALL MONITOR ITERATION 41: FITNESS: 316 WEIGHTS:
+{'numInvaders': -3598.6, 'distanceFromTeam': 10.4, 'reverse': -27.6, 'distanceToFood': 0.2, 'stop': -21.8, 'invaderDistance': -233.2, 'foodLeft': 0.2, 'ourFoodLeft': 127.8, 'distanceToOurFood': -7.4, 'onDefense': 123.4}
+INFO:root:KILLA ITERATION 41: FITNESS: 316 WEIGHTS:
+{'numInvaders': 61.0, 'distanceFromTeam': 12.2, 'reverse': -97.6, 'distanceToAlly': 45.0, 'distanceToFood': -90.2, 'stop': -5.4, 'invaderDistance': -16.2, 'distanceToStart': -1595.2, 'ourFoodLeft': 0.0, 'distanceToOurFood': 0.2, 'returnReward': 434.0, 'onDefense': -27.0, 'foodLeft': -215.6}
+INFO:root:HALL MONITOR ITERATION 42: FITNESS: 309 WEIGHTS:
+{'numInvaders': -4728.6, 'distanceFromTeam': 3.0, 'reverse': -13.8, 'distanceToFood': 0.2, 'stop': -23.2, 'invaderDistance': -252.8, 'foodLeft': 0.0, 'ourFoodLeft': 88.6, 'distanceToOurFood': -9.0, 'onDefense': 75.6}
+INFO:root:KILLA ITERATION 42: FITNESS: 309 WEIGHTS:
+{'numInvaders': 22.6, 'distanceFromTeam': 9.2, 'reverse': -90.8, 'distanceToAlly': 22.6, 'distanceToFood': -24.2, 'stop': -14.2, 'invaderDistance': -44.8, 'distanceToStart': -937.2, 'ourFoodLeft': -0.2, 'distanceToOurFood': 0.2, 'returnReward': 782.0, 'onDefense': -26.0, 'foodLeft': -314.8}
+INFO:root:HALL MONITOR ITERATION 43: FITNESS: 300 WEIGHTS:
+{'numInvaders': -7474.0, 'distanceFromTeam': 9.4, 'reverse': -16.2, 'distanceToFood': 0.0, 'stop': -24.4, 'invaderDistance': -343.4, 'foodLeft': 0.0, 'ourFoodLeft': 118.0, 'distanceToOurFood': -3.6, 'onDefense': 40.8}
+INFO:root:KILLA ITERATION 43: FITNESS: 300 WEIGHTS:
+{'numInvaders': 20.0, 'distanceFromTeam': 20.8, 'reverse': -131.6, 'distanceToAlly': 44.8, 'distanceToFood': -23.0, 'stop': -4.6, 'invaderDistance': -16.0, 'distanceToStart': -1792.8, 'ourFoodLeft': 0.0, 'distanceToOurFood': 0.2, 'returnReward': 529.4, 'onDefense': -21.2, 'foodLeft': -242.6}
+INFO:root:HALL MONITOR ITERATION 44: FITNESS: 317 WEIGHTS:
+{'numInvaders': -8536.8, 'distanceFromTeam': 3.0, 'reverse': -13.8, 'distanceToFood': 0.2, 'stop': -20.8, 'invaderDistance': -273.6, 'foodLeft': 0.0, 'ourFoodLeft': 97.0, 'distanceToOurFood': -9.4, 'onDefense': 121.2}
+INFO:root:KILLA ITERATION 44: FITNESS: 317 WEIGHTS:
+{'numInvaders': 34.6, 'distanceFromTeam': 29.2, 'reverse': -65.4, 'distanceToAlly': 32.8, 'distanceToFood': -121.6, 'stop': -3.2, 'invaderDistance': -17.2, 'distanceToStart': -1866.8, 'ourFoodLeft': 0.2, 'distanceToOurFood': 0.2, 'returnReward': 696.8, 'onDefense': -15.0, 'foodLeft': -275.4}
+INFO:root:HALL MONITOR ITERATION 45: FITNESS: 291 WEIGHTS:
+{'numInvaders': -7532.8, 'distanceFromTeam': 14.6, 'reverse': -8.0, 'distanceToFood': 0.0, 'stop': -18.8, 'invaderDistance': -378.4, 'foodLeft': 0.0, 'ourFoodLeft': 126.2, 'distanceToOurFood': -6.2, 'onDefense': 49.0}
+INFO:root:KILLA ITERATION 45: FITNESS: 291 WEIGHTS:
+{'numInvaders': 44.6, 'distanceFromTeam': 17.6, 'reverse': -105.6, 'distanceToAlly': 56.6, 'distanceToFood': -128.8, 'stop': -16.8, 'invaderDistance': -37.0, 'distanceToStart': -854.8, 'ourFoodLeft': -0.2, 'distanceToOurFood': 0.2, 'returnReward': 439.6, 'onDefense': -16.4, 'foodLeft': -231.8}
+INFO:root:HALL MONITOR ITERATION 46: FITNESS: 319 WEIGHTS:
+{'numInvaders': -2195.4, 'distanceFromTeam': 19.6, 'reverse': -8.0, 'distanceToFood': -0.2, 'stop': -23.2, 'invaderDistance': -324.4, 'foodLeft': -0.2, 'ourFoodLeft': 146.2, 'distanceToOurFood': -2.4, 'onDefense': 81.6}
+INFO:root:KILLA ITERATION 46: FITNESS: 319 WEIGHTS:
+{'numInvaders': 33.0, 'distanceFromTeam': 15.4, 'reverse': -71.2, 'distanceToAlly': 28.4, 'distanceToFood': -36.0, 'stop': -14.2, 'invaderDistance': -15.8, 'distanceToStart': -1767.4, 'ourFoodLeft': 0.2, 'distanceToOurFood': -0.2, 'returnReward': 784.2, 'onDefense': -11.4, 'foodLeft': -97.0}
+INFO:root:HALL MONITOR ITERATION 47: FITNESS: 321 WEIGHTS:
+{'numInvaders': -2924.8, 'distanceFromTeam': 7.6, 'reverse': -18.2, 'distanceToFood': 0.0, 'stop': -29.8, 'invaderDistance': -386.6, 'foodLeft': -0.2, 'ourFoodLeft': 157.2, 'distanceToOurFood': -9.8, 'onDefense': 158.8}
+INFO:root:KILLA ITERATION 47: FITNESS: 321 WEIGHTS:
+{'numInvaders': 49.0, 'distanceFromTeam': 31.4, 'reverse': -89.8, 'distanceToAlly': 11.6, 'distanceToFood': -134.4, 'stop': -4.6, 'invaderDistance': -31.2, 'distanceToStart': -1123.8, 'ourFoodLeft': 0.0, 'distanceToOurFood': -0.2, 'returnReward': 505.4, 'onDefense': -19.6, 'foodLeft': -114.8}
+INFO:root:HALL MONITOR ITERATION 48: FITNESS: 299 WEIGHTS:
+{'numInvaders': -7637.8, 'distanceFromTeam': 3.2, 'reverse': -11.2, 'distanceToFood': -0.2, 'stop': -17.6, 'invaderDistance': -318.2, 'foodLeft': -0.2, 'ourFoodLeft': 220.0, 'distanceToOurFood': -8.2, 'onDefense': 122.8}
+INFO:root:KILLA ITERATION 48: FITNESS: 299 WEIGHTS:
+{'numInvaders': 28.6, 'distanceFromTeam': 27.8, 'reverse': -132.2, 'distanceToAlly': 17.8, 'distanceToFood': -37.0, 'stop': -11.0, 'invaderDistance': -6.6, 'distanceToStart': -1707.2, 'ourFoodLeft': 0.2, 'distanceToOurFood': 0.2, 'returnReward': 468.8, 'onDefense': -27.8, 'foodLeft': -77.6}
+INFO:root:HALL MONITOR ITERATION 49: FITNESS: 301 WEIGHTS:
+{'numInvaders': -8862.2, 'distanceFromTeam': 7.0, 'reverse': -23.2, 'distanceToFood': 0.0, 'stop': -24.2, 'invaderDistance': -247.6, 'foodLeft': 0.0, 'ourFoodLeft': 137.8, 'distanceToOurFood': -6.2, 'onDefense': 198.2}
+INFO:root:AGENT 0 CHOSEN PARENT: (321, {'numInvaders': -2924.8, 'distanceFromTeam': 7.6, 'reverse': -18.2, 'distanceToFood': 0.0, 'stop': -29.8, 'invaderDistance': -386.6, 'foodLeft': -0.2, 'ourFoodLeft': 157.2, 'distanceToOurFood': -9.8, 'onDefense': 158.8})
+INFO:root:STARTING GENERATION 5
+INFO:root:WEIGHTS SET:
+{'numInvaders': -2956.986753659367, 'distanceFromTeam': 7.522784349445119, 'reverse': -19.082222924089596, 'distanceToFood': 0.0, 'stop': -29.84088591604965, 'invaderDistance': -382.9298271325629, 'foodLeft': -0.19820294871548746, 'ourFoodLeft': 149.44132396000444, 'distanceToOurFood': -9.362956507378236, 'onDefense': 162.21939556415475}
+INFO:root:KILLA ITERATION 49: FITNESS: 301 WEIGHTS:
+{'numInvaders': 56.2, 'distanceFromTeam': 1.8, 'reverse': -161.4, 'distanceToAlly': 29.2, 'distanceToFood': -81.6, 'stop': -17.4, 'invaderDistance': -33.0, 'distanceToStart': -738.2, 'ourFoodLeft': 0.2, 'distanceToOurFood': 0.0, 'returnReward': 402.8, 'onDefense': -15.2, 'foodLeft': -377.2}
+INFO:root:KILLA: CHOSEN PARENT: (321, {'numInvaders': 49.0, 'distanceFromTeam': 31.4, 'reverse': -89.8, 'distanceToAlly': 11.6, 'distanceToFood': -134.4, 'stop': -4.6, 'invaderDistance': -31.2, 'distanceToStart': -1123.8, 'ourFoodLeft': 0.0, 'distanceToOurFood': -0.2, 'returnReward': 505.4, 'onDefense': -19.6, 'foodLeft': -114.8})
+INFO:root:STARTING GENERATION 5
+INFO:root:WEIGHTS SET:
+{'numInvaders': 49.950119985838356, 'distanceToAlly': 11.722633108098957, 'reverse': -86.63727773642836, 'stop': -4.377638095183309, 'distanceToFood': -136.2352076033644, 'distanceFromTeam': 32.253178951360034, 'invaderDistance': -31.582166422187555, 'foodLeft': -111.94021225263727, 'distanceToStart': -1083.7637861980347, 'ourFoodLeft': 0.0, 'returnReward': 518.0928816893583, 'onDefense': -19.08140059581546, 'distanceToOurFood': -0.19734919598506795}

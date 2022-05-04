@@ -48,14 +48,15 @@ class ParameterSetter:
         return new_weights
 
     def set_params(self, weights, red, defensive=True):
+        parameter_file = 'pacboys/'
         if defensive and red:
-            parameter_file = 'parameters_dr.json'
+            parameter_file += 'parameters_dr.json'
         elif defensive and not red:
-            parameter_file = 'parameters_db.json'
+            parameter_file += 'parameters_db.json'
         elif not defensive and red:
-            parameter_file = 'parameters_ar.json'
+            parameter_file += 'parameters_ar.json'
         else:
-            parameter_file = 'parameters_ab.json'
+            parameter_file += 'parameters_ab.json'
         with open(parameter_file, 'w') as parameters:
             parameters.write(json.dumps(weights))
 

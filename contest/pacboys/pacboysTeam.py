@@ -21,7 +21,7 @@ from pacboys.create_weights import ParameterSetter
 #################
 
 arguments = {}
-GENERATION_LENGTH = 20
+GENERATION_LENGTH = 10
 NUM_GENERATIONS = 5
 
 # init first generation with random weights
@@ -56,7 +56,7 @@ def createTeam(firstIndex, secondIndex, isRed,
         TRAINING = False
 
     # for running in class, we never want it training
-    TRAINING = False
+    # TRAINING = False
 
     if TRAINING:
         return [PacBoyHallMonitor(firstIndex, arguments['numTraining'], train=TRAINING), PacBoyKilla(secondIndex, arguments['numTraining'], train=TRAINING)]
